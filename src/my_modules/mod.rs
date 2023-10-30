@@ -1,6 +1,7 @@
 
  pub fn add(a: i32, b: i32) -> Result<i32, &'static str> {
         Ok(a + b)
+        
     }
 
 

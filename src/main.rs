@@ -30,7 +30,7 @@ fn main() {
     io::stdin().read_line(&mut input).expect("Failed to read input");
       // Replace any commas with an empty string
       let input = input.replace(",", "");
-    let b: i32 = input.trim().parse().expect("Invalid input");
+    let b: i32 = input.trim().parse().expect("Invalid nput");
 
     match my_modules::add(a, b) {
         Ok(result) => my_modules::display_result(result),
